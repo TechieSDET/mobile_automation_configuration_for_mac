@@ -23,8 +23,9 @@ Download the Android studio from the following link<br>
 <a href="https://developer.android.com/studio/index.html" target="_blank">https://developer.android.com/studio/index.html</a>
 </pre>
 Install Android studio and move to the Applications.<br>
-
+<br>
 Open Android studio, click on “Configure” and Select “SDK Manager” <br>
+<img src="https://github.com/codecunning/mobile_automation_configuration_for_mac/blob/master/SDK%20Manager.png">
 
 
 
