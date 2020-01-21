@@ -25,9 +25,43 @@ Download the Android studio from the following link<br>
 Install Android studio and move to the Applications.<br>
 <br>
 Open Android studio, click on “Configure” and Select “SDK Manager” <br>
-<img src="https://github.com/codecunning/mobile_automation_configuration_for_mac/blob/master/SDK%20Manager.png" width="100" height="100">
+<img src="https://github.com/codecunning/mobile_automation_configuration_for_mac/blob/master/SDK%20Manager.png" width="1000" height="1000">
 Select “SDK Tools” tab and make sure the highlighted modules are checked and installed.
-<img src="" width="100" height="100">
+<img src="https://github.com/codecunning/mobile_automation_configuration_for_mac/blob/master/SDK%20tools.png" width="1000" height="1000">
+
+<h4>Step 4 : Setup Android Environment Variables</h4>
+Open terminal and type the following command to open the .bash_profile file
+<pre>nano ~/.bash_profile</pre>
+Type the following in the next line
+<pre>export ANDROID_HOME=/Users/$USER/Library/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$ANDROID_HOME/tools/bin:ANDROID_HOME/tools</pre>
+Press Ctrl+X to exit the bash profile
+<br>
+Press Y to save the changes and press Enter
+
+<h4>Step 5 : Download and install Appium Desktop Client<h4>
+Download the stable appium desktop for mac (.dmg file) from
+<pre><a href="https://github.com/appium/appium-desktop/releases">https://github.com/appium/appium-desktop/releases</a></pre>
+<br>
+Install appium desktop client and move the appium to the applications folder
+
+<h4>Step 6 : Download and Install XCode</h4>
+1.  2. Provide the apple id and password 3. Download the stable version of xcode and install it and move it to Applications 4. Download XCode Command Line Tools from https://developer.apple.com/download/more/ 5. The command line tools should be the same version of xcode or the lower version of 
+xcode If xcode version is 9.3.3 and command line tools can be of 9.3.2 6. Install XCode Command Line Tools 
+<ol type="1">
+  <li>
+    Download Xcode from 
+    <pre><a href="https://developer.apple.com/download/">https://developer.apple.com/download/</a></pre>
+  </li>
+  <li>Provide the apple id and password</li>
+  <li>Download the stable version of xcode and install it and move it to Applications</li>
+  <li>
+  Download XCode Command Line Tools from
+  <pre><a href="https://developer.apple.com/download/more/">https://developer.apple.com/download/more/</a></pre>
+  </li>
+  <li>The command line tools should be the same version of xcode or the lower version of xcode If xcode version is 9.3.3 and   command line tools can be of 9.3.2 6. Install XCode Command Line Tools</li>
+</ol>
+
 
 
 
