@@ -1,12 +1,10 @@
 <h3>Installation Steps For Mac</h3>
 
-Steps 1: Install Java Development Kit (JDK)
-<pre>
+<h5>Steps 1: Install Java Development Kit (JDK)</h5>
 Download JDK from the following link
 <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html" arget="_blank">https://www.oracle.com/technetwork/java/javase/downloads/index.html</a>
 
 Install the JDK
-</pre>
 
 Steps 2: Setup Java Environment Variable Path<br>
 Open terminal and type the following command to open the .bash_profile file
