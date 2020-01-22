@@ -25,9 +25,9 @@ Download the Android studio from the following link<br>
 Install Android studio and move to the Applications.<br>
 <br>
 Open Android studio, click on “Configure” and Select “SDK Manager” <br>
-<img src="https://github.com/codecunning/mobile_automation_configuration_for_mac/blob/master/SDK%20Manager.png" width="900" height="500">
+<img src="https://github.com/codecunning/mobile_automation_configuration_for_mac/blob/master/SDK%20Manager.png" width="600" height="300">
 Select “SDK Tools” tab and make sure the highlighted modules are checked and installed.
-<img src="https://github.com/codecunning/mobile_automation_configuration_for_mac/blob/master/SDK%20tools.png" width="900" height="500">
+<img src="https://github.com/codecunning/mobile_automation_configuration_for_mac/blob/master/SDK%20tools.png" width="600" height="300">
 
 <h4>Step 4 : Setup Android Environment Variables</h4>
 Open terminal and type the following command to open the .bash_profile file
