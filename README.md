@@ -1,4 +1,4 @@
-<h3>Installation Steps For Mac</h3>
+<h3>Installation Steps on Mac for Simulator</h3>
 
 <h4>Steps 1: Install Java Development Kit (JDK)</h4>
 <pre
@@ -76,6 +76,20 @@ Install appium desktop client and move the appium to the applications folder
   <li>To make sure you have Node and NPM installed, run two simple commands to see what version of each is installed
     <pre>node -v</pre>
   </li>
+ </ol>
+<h4>Step 8 : Install the following dependencies</h4>
+<ul style="list-style-type:circle;">
+  <l1>Open the Terminal app and install the following by giving these commands.</li>
+  <l1>These dependencies are needed for Appium
+  <pre>
+  > brew install carthage
+  > brew install libimobiledevice --HEAD
+  > brew install ideviceinstaller
+  > npm install -g ios-deploy
+  </pre>
+</li>
+  
+  
 
 
 
